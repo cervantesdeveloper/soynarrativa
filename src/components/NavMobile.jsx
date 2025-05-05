@@ -13,7 +13,11 @@ const NavMobile = () => {
     return (
         <nav className='navMobile'>
             <NavLink to="">
-                <img src={logo} alt="" />
+                <img 
+                    src={logo} 
+                    alt="" 
+                    onClick={logoClick}
+                />
             </NavLink>
             <Burger isOpen={isOpen} burgerHandleClick={burgerClick}/>
         </nav>
