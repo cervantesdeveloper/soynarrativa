@@ -1,0 +1,66 @@
+@use "../base/variables" as v;
+
+.burger{
+    height: 1.125rem;
+    width: 1.5rem;
+    position: relative;
+    
+    span{
+        position: absolute;
+        display: block;
+        height: 2px;
+        border-radius: 1px;
+        background-color: v.$grey-100;
+
+        &:first-child{
+            width: .8125rem;
+            top: 0;
+            right: 0;
+        }
+
+        &:nth-child(2){
+            width: 100%;
+            top: .5rem;
+        }
+
+        &:last-child{
+            width: .8125rem;
+            bottom: 0;
+        }
+    }
+}
+
+.burger.burger__open{
+
+    span{
+        transition: transform .3s ease-in-out;
+
+        &:first-child{
+            transform: 
+                rotate(-45deg) 
+                translateX(-.1875rem)
+                translateY(-.1875rem);
+            transform-origin: top right;
+        }
+
+        &:nth-child(2){
+            transform: rotate(45deg);
+            transform-origin: center;
+        }
+
+        &:last-child{
+            transform: 
+                rotate(-45deg) 
+                translateX(.1875rem)
+                translateY(.1875rem);
+            transform-origin: bottom left;
+        }
+    }
+}
+
+.burger.burger__closed{
+    span{
+        transition: all .3s ease-in-out;
+    }
+}
+

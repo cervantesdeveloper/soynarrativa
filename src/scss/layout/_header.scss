@@ -1,0 +1,21 @@
+@use "../base/variables" as v;
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: v.$headerHeight;
+    padding: 1rem 1.5rem;
+    background-color: white;
+}
+
+.navMobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        height: 2.5rem;
+    }
+}
