@@ -1,0 +1,28 @@
+@use "../base/variables" as v;
+
+.menuMobile{
+    position: fixed;
+    left: 100%;
+    top: v.$headerHeight;
+    min-height: calc(100vh - v.$headerHeight);
+    width: 100%;
+    background-color: white;
+    transition: left .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &.menuMobileOpen{
+        left: 0;
+    }
+
+    a{
+        font-size: 1.125rem;
+        line-height: 3;
+
+        &:last-child{
+            margin-top: 3rem;
+        }
+    }
+}

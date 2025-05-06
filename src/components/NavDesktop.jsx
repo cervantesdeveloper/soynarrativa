@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import logo from "/LogoBrain.svg";
 
@@ -19,13 +19,12 @@ const NavDesktop = () => {
                 />
             </NavLink>
 
-            <NavLink to="contact">
+            <Link to="contact">
                 <div className="btn btn__cta">
                     CONTACTO
                 </div>
-            </NavLink>
-            
-            
+            </Link>
+
         </nav>
 
         
