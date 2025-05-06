@@ -19,3 +19,30 @@
         height: 2.5rem;
     }
 }
+
+.navDesktop{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul{
+        display: flex;
+        align-items: center;
+
+        li:not(:last-child){
+            margin-right: 1.125rem;
+        }
+        
+        a{
+            font-size: 1.125rem;
+            transition: color .3s ease-in-out;
+
+            &:hover{
+                color: v.$grey-100;
+            }
+        }
+
+        
+    }
+}

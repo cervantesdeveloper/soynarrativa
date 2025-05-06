@@ -12,7 +12,69 @@ html{
     padding: 0
 }
 
+
+
+a{
+    text-decoration: none;
+    color: v.$grey-75;
+}
+
+body{
+    font-family: v.$paragraph;
+}
+
+.btn{
+    border: 2px solid v.$grey-75;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: 
+        color .3s ease-in-out,
+        border-color .3s ease-in-out,
+        background-color .3s ease-in-out
+    ;
+
+    &:hover{
+        color: white;
+        border-color: v.$purple-50;
+    }
+
+    &::after{
+        content: " ";
+        display: block;
+        width: 1px;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        transition: 
+            transform .8s ease-in-out;
+        z-index: -1;
+    }
+
+    &:hover::after{
+        transform: scale(375);
+        background-color: v.$purple-50;
+    }
+}
+
+
+
+
 h1, h2, h3, h4, h5, h6{
     font-family: v.$header;
     font-style: normal;
 }
+
+ul{
+    list-style: none;
+}
+
