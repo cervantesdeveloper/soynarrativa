@@ -8,15 +8,20 @@ import Layout from './Layouts/Layout';
 
 
 
+
 function App() {
 
 
     return (
         <BrowserRouter>
             <Routes>
+                <Route path='/' element={<Home />} />
+                
                 <Route element={<Layout/>}>
-                    <Route path='/' element={<Home />} />
-
+                    <Route path='/about'/>
+                    <Route path='/portfolio'/>
+                    <Route path='/services'/>
+                    <Route path='/contact'/>
                 </Route>
             </Routes>
         </BrowserRouter>

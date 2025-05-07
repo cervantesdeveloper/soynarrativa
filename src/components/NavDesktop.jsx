@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-
-import logo from "/LogoBrain.svg";
+import { NavLink } from 'react-router-dom';
 
 const NavDesktop = () => {
     return (
@@ -11,25 +9,7 @@ const NavDesktop = () => {
                 <li><NavLink to="portfolio">PROYECTOS</NavLink></li>
                 <li><NavLink to="services">SERVICIOS</NavLink></li>
             </ul>
-
-            <NavLink to="">
-                <img 
-                    src={logo} 
-                    alt="" 
-                />
-            </NavLink>
-
-            <Link to="contact">
-                <div className="btn btn__cta">
-                    CONTACTO
-                </div>
-            </Link>
-
         </nav>
-
-        
-        
-        
     )
 }
 

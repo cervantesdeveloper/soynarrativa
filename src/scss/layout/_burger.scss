@@ -10,7 +10,7 @@
         display: block;
         height: 2px;
         border-radius: 1px;
-        background-color: v.$grey-75;
+        backdrop-filter: invert(82%);
 
         &:first-child{
             width: .8125rem;

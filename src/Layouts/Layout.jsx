@@ -1,8 +1,10 @@
 import React from 'react'
-import Header from '../components/Header'
+import { Outlet } from 'react-router-dom';
 
 import { MenuProvider } from '../contexts/MenuContext';
 import { DeviceProvider } from '../contexts/DeviceContext';
+
+import Header from '../components/Header'
 import MenuMobile from '../components/MenuMobile';
 
 const Layout = () => {
@@ -14,6 +16,8 @@ const Layout = () => {
                 <MenuMobile />
             </MenuProvider>
             </DeviceProvider>
+            
+            <Outlet />
             
         </>
     )
