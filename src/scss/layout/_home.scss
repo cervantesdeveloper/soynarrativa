@@ -1,12 +1,7 @@
-.home-hero{
-    border: .5px dashed red;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 .home-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 4.5rem;
     display: flex;
     align-items: center;
@@ -17,3 +12,79 @@
         justify-content: start;
     }
 }
+
+.home-hero{
+    min-height: 100vh;
+    width: 100%;
+    
+    @media (orientation: landscape) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.home-hero__gallery{
+    width: 100%;
+    overflow: hidden;
+
+    @media (orientation: landscape) {
+        width: 50%;
+    }
+}
+
+.home-hero__carousel{
+    display: flex;
+    width: 500%;
+    height: 100%;
+    animation-name: slide;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    transition: opacity .22s ease-in-out;
+}
+
+@keyframes slide {
+
+    0%{transform: translateX(0); opacity: 1;}
+    17.25%{transform: translateX(0); opacity: 1;}
+    18.5%{transform: translateX(0); opacity: 0;}
+    19%{transform: translateX(-20%); opacity: 0;}
+
+    20%{transform: translateX(-20%); opacity: 1;}
+    37.25%{transform: translateX(-20%); opacity: 1;}
+    38.5%{transform: translateX(-20%); opacity: 0;}
+    39%{transform: translateX(-40%); opacity: 0;}
+
+    40%{transform: translateX(-40%); opacity: 1;}
+    57.25%{transform: translateX(-40%); opacity: 1;}
+    58.5%{transform: translateX(-40%); opacity: 0;}
+    59%{transform: translateX(-60%); opacity: 0;}
+
+    60%{transform: translateX(-60%); opacity: 1;}
+    77.25%{transform: translateX(-60%); opacity: 1;}
+    78.5%{transform: translateX(-60%); opacity: 0;}
+    79%{transform: translateX(-80%); opacity: 0;}
+
+    80%{transform: translateX(-80%); opacity: 1;}
+    97.25%{transform: translateX(-80%); opacity: 1;}
+    98.5%{transform: translateX(-80%); opacity: 0;}
+    99%{transform: translateX(-100%); opacity: 0;}
+
+    100%{transform: translateX(0%); opacity: 0;}
+    
+}
+
+.home-hero__image{
+   width: 20%;
+   height: 100%;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   aspect-ratio: 1 / 1;
+}
+
+.home-hero__image img{
+    height: 100%;
+    width: auto;
+}
+

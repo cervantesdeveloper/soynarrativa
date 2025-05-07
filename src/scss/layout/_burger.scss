@@ -34,7 +34,7 @@
 
     span{
         transition: transform .3s ease-in-out;
-        background-color: v.$grey-100;
+        backdrop-filter: invert(82%);
 
         &:first-child{
             transform: 

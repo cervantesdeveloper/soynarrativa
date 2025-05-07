@@ -19,10 +19,6 @@ const Home = () => {
 
         <HomeCarousel />
         <div className="home-hero__title">
-          <Link to="/projects">
-            {/* <img src="" alt="SOY NARRATIVA" /> */}
-            {/* <Btn text="ENTRAR"/> */}
-          </Link>
         </div>
       </main>
     )
