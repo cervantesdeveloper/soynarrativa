@@ -1,8 +1,11 @@
 @use "../base/variables" as v;
 
 .burger{
-    height: 1.125rem;
-    width: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: v.$white-75;
+    border: 1px solid v.$white-50;
     position: relative;
     
     span{
@@ -10,22 +13,24 @@
         display: block;
         height: 2px;
         border-radius: 1px;
-        backdrop-filter: invert(82%);
+        background-color: v.$grey-100;
 
         &:first-child{
             width: .8125rem;
-            top: 0;
-            right: 0;
+            top: .625rem;
+            right: .4375rem;
         }
 
         &:nth-child(2){
-            width: 100%;
-            top: .5rem;
+            width: 1.5rem;
+            top: 1.125rem;
+            left: .4375rem;
         }
 
         &:last-child{
             width: .8125rem;
-            bottom: 0;
+            bottom: .625rem;
+            left: .4375rem;
         }
     }
 }
@@ -34,7 +39,6 @@
 
     span{
         transition: transform .3s ease-in-out;
-        backdrop-filter: invert(82%);
 
         &:first-child{
             transform: 

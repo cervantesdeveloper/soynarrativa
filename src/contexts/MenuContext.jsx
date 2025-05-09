@@ -5,8 +5,9 @@ const MenuProvider = ({children})=>{
 
     const burgerClick= ()=>{
         setIsOpen(!isOpen)
+        
     }
-
+    
     const logoClick = ()=>{
         setIsOpen(false)
     }

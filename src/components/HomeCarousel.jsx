@@ -1,11 +1,7 @@
-import React from 'react';
-
 import data from "../assets/projects.json";
-console.log(data[0].image);
 
 const HomeCarousel = () => {
     const images = data.map(img => img.image);
-    console.log(images)
 
     return (
         <section className='home-hero__gallery'>

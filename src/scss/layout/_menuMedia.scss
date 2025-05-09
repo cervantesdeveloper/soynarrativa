@@ -1,0 +1,27 @@
+@use "../base/variables" as v;
+
+.menu-media{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+
+    a{
+        opacity: 75%;
+        transition: opacity .3s ease-in-out;
+        &:first-child{
+            margin-right: .75rem;
+        }
+
+        img{
+        width: 1.5rem;
+        height: auto;
+        margin-bottom: 0;
+        }
+
+        &:hover{
+            opacity: 100%;
+        } 
+    } 
+
+
+}

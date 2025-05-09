@@ -1,4 +1,7 @@
+@use "../base/variables" as v;
+
 .home-header{
+    z-index: 100;
     position: fixed;
     top: 0;
     width: 100%;
@@ -8,7 +11,7 @@
     justify-content: end;
     padding: 1rem 1.5rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         justify-content: start;
     }
 }
@@ -33,6 +36,7 @@
 }
 
 .home-hero__carousel{
+    z-index: 1;
     display: flex;
     width: 500%;
     height: 100%;
@@ -80,11 +84,53 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   aspect-ratio: 1 / 1;
+   aspect-ratio: 1.62 / 1;
 }
 
 .home-hero__image img{
     height: 100%;
     width: auto;
+}
+
+.home-hero__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+
+    img{
+        max-width: min(90%, 23rem);
+        margin-bottom: 4.5rem;
+    }
+
+    @media (orientation: landscape) {
+        max-width: 50%;
+    }
+
+    @media (min-width: 1024px){
+        justify-content: center;
+    }
+
+    .menu-media{
+        margin-top: 3rem;
+    }
+
+}
+
+.home-hero__text{
+    font-size: .875rem;
+    line-height: 1.5;
+    color: v.$grey-75;
+    margin-bottom: 3rem;
+    max-width: min(90%, 23rem);
+
+    @media (min-width: "768px") {
+        font-size: 1rem;
+    }
+
+    p:first-child{
+        margin-bottom: 1.3125rem;
+    }
 }
 
