@@ -1,7 +1,8 @@
-import React, {useContext} from 'react'
+import {useContext} from 'react'
 
 import NavMobile from './NavMobile';
 import NavDesktop from './NavDesktop';
+import Btn from './Btn';
 
 import DeviceContext from '../contexts/DeviceContext';
 
@@ -16,7 +17,7 @@ const Header = () => {
         ? <NavMobile/>
         : <NavDesktop/>
       }
-
+      {!isMobile && <Btn text="CONTACTO" />}
     </header>
   )
 }

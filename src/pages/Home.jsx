@@ -6,6 +6,7 @@ import {DeviceProvider} from "../contexts/DeviceContext";
 
 import Btn from "../components/Btn";
 import monogram from "/monogram.svg";
+import brain from "/brainPurple.svg"
 import HomeCarousel from '../components/HomeCarousel';
 import HomeHeader from '../components/HomeHeader';
 import MenuMobile from '../components/MenuMobile';
@@ -24,9 +25,10 @@ const Home = () => {
         <main className='home-hero'>
           <HomeCarousel />
           <div className="home-hero__title">
+            <img src={brain} alt="soy narrativa" />
             <img src={monogram} alt="soy narrativa" />
             <div className="home-hero__text">
-              <p>En Narrtiva construimos marcas con propósito.</p>
+              <p>En Narrativa construimos marcas con propósito.</p>
               <p>Somos un colectivo creativo especializado en Branding que transforma ideas en identidades auténticas, coherentes y memorables.</p>
               <p>Nos enfocamos en desarrollar marcas que no solo se vean bien, sino que comuniquen, conecten y trasciendan.</p>
               <p>A través de diseño estratégico, narrativa visual y un enfoque consciente, creamos marcas con alma, pensadas para generar impacto real.</p>

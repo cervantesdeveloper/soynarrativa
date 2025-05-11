@@ -42,11 +42,13 @@ body{
     padding: 0 1rem;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
     transition: 
         color .3s ease-in-out,
         border-color .3s ease-in-out,
         background-color .3s ease-in-out
     ;
+    color: v.$grey-75;
 
     &:hover{
         color: white;
@@ -76,12 +78,32 @@ body{
 
 }
 
-
+.container{
+    padding: 1.5rem;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 h1, h2, h3, h4, h5, h6{
     font-family: v.$header;
     font-style: normal;
+    color: v.$grey-100;
+}
+
+.heading h1{
+    font-size: 1.125rem;
+    margin: 3rem 0;
+}
+
+h2{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+main.container{
+    margin-top: v.$headerHeight;
 }
 
 ul{

@@ -1,0 +1,30 @@
+@use "../base/variables" as v;
+
+
+.container .heading{
+    border-bottom: 1px solid v.$grey-50;
+    margin-bottom: 3rem;
+}
+
+.about__text{
+    font-size: .875rem;
+    line-height: 1.5;
+    color: v.$grey-75;
+
+    & > div:first-child{
+        margin-bottom: 3rem;
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+        gap: 10rem;
+
+        > div{
+            flex-basis: 50%;
+        }
+
+        & > div:first-child{
+        margin-bottom: 0;
+    }
+    }
+}

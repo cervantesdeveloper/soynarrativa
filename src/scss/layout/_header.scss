@@ -9,12 +9,21 @@
     height: v.$headerHeight;
     padding: 1rem 1.5rem;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: 1440px) {
+        padding: 1rem 10rem;
+    }
+
 }
 
 .navMobile{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
     img{
         height: 2.5rem;
