@@ -7,7 +7,7 @@ const MediaMenu = () => {
   return (
     <nav className='menu-media'>
         <a href="https://www.facebook.com/soynarrativa?locale=es_LA" target='_blank'><img src={facebook} alt="facebook" /></a>
-        <a href="#" target='_blank'><img src={instagram} alt="instagram" /></a>
+        <a href="https://www.instagram.com/soynarrativa/?igsh=eW1oc2VodzYydmdx&utm_source=qr#" target='_blank'><img src={instagram} alt="instagram" /></a>
     </nav>
   )
 }

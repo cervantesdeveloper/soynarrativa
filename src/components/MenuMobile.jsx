@@ -5,12 +5,13 @@ import { NavLink, Link } from 'react-router-dom';
 
 const MenuMobile = () => {
     const {isMobile} = useContext(DeviceContext);
-    const {isOpen} = useContext(MenuContext);
+    const {isOpen, logoClick} = useContext(MenuContext);
     return (
         !isMobile 
         ?  <></>
         : (
             <nav 
+            onClick={logoClick}
             className={
                 `menuMobile ${isOpen ? "menuMobileOpen" : "menuMobileClosed"}`
                 }
