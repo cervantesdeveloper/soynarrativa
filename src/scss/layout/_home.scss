@@ -108,7 +108,7 @@
     align-items: flex-start;
     padding: 1.5rem;
 
-    img:first-child{
+    & > img:first-child{
         height: 2.375rem;
         margin-bottom: 3rem;
         display: none;

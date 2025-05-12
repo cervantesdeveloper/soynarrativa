@@ -6,6 +6,7 @@ import { DeviceProvider } from '../contexts/DeviceContext';
 
 import Header from '../components/Header'
 import MenuMobile from '../components/MenuMobile';
+import Footer from '../components/Footer';
 
 const Layout = () => {
     return (
@@ -18,6 +19,7 @@ const Layout = () => {
             </DeviceProvider>
             
             <Outlet />
+            <Footer />
             
         </>
     )

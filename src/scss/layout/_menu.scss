@@ -18,12 +18,26 @@
         left: 0;
     }
 
-    a{
+    & > a{
         font-size: 1.125rem;
         line-height: 3;
 
-        &:last-child{
+        &:nth-child(4){
             margin-top: 3rem;
+        }
+    }
+
+    .menuMobile__media{
+        margin-top: 3rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.125rem;
+
+
+        a img{
+            height: 1.5rem;
         }
     }
 }
