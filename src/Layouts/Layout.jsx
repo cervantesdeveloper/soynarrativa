@@ -19,8 +19,9 @@ const Layout = () => {
             </DeviceProvider>
             
             <Outlet />
-            <Footer />
-            
+            <DeviceProvider>
+                <Footer />
+            </DeviceProvider>
         </>
     )
 }

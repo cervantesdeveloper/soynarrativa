@@ -1,6 +1,8 @@
 @use "../base/variables" as v;
 
-
+.about{
+    min-height: calc(100vh - (2 * v.$headerHeight));
+}
 .container .heading{
     border-bottom: 1px solid v.$grey-50;
     margin-bottom: 3rem;

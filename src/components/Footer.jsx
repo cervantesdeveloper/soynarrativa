@@ -1,11 +1,25 @@
 
-import MediaMenu from './MediaMenu'
+import { useContext } from 'react';
+
+import DeviceContext from '../contexts/DeviceContext';
+
+import MediaMenu from './MediaMenu';
 
 const Footer = () => {
+  const {isMobile} = useContext(DeviceContext);
   return (
-    <footer className='footer'>
-      <MediaMenu />
-    </footer>
+    <>
+    {
+      !isMobile &&
+      (
+        <footer className='footer'>
+          <MediaMenu />
+        </footer>
+      )
+    }
+    </>
+    
+    
   )
 }
 

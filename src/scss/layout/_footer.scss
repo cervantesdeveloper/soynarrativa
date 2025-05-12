@@ -1,0 +1,10 @@
+@use "../base/variables" as v;
+
+.footer{
+    padding: 1rem 1.5rem;
+    background-color: v.$white-100;
+
+    @media (min-width: 1440px) {
+        padding: 1rem 10rem;
+    }
+}
