@@ -1,5 +1,5 @@
 [
-    {
+    {   "id": "1",
         "title": "Proyecto 1",
         "image": "https://picsum.photos/id/237/960/592",
         "service": "branding",
@@ -8,7 +8,7 @@
 
     },
 
-    {
+    {   "id": "2",
         "title": "Proyecto 2",
         "image": "https://picsum.photos/id/239/960/592",
         "service": "redes",
@@ -17,7 +17,7 @@
 
     },
 
-    {
+    {   "id": "3",
         "title": "Proyecto 3",
         "image": "https://picsum.photos/id/240/960/592",
         "service": "website",
@@ -26,7 +26,7 @@
 
     },
 
-    {
+    {   "id": "4",
         "title": "Proyecto 4",
         "image": "https://picsum.photos/id/241/960/592",
         "service": "branding",
@@ -35,7 +35,7 @@
 
     },
 
-    {
+    {   "id": "5",
         "title": "Proyecto 5",
         "image": "https://picsum.photos/id/242/960/592",
         "service": "redes",
