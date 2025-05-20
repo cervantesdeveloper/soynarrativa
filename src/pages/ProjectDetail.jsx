@@ -25,7 +25,7 @@ const ProjectDetail = () => {
                 for(let i = 2; i <= el.total_images; i++){
                     setImages(preVal=>{
                         return (
-                            [...preVal, <img key={i} src={`${el.gallery_folder}/${i}.png`} />]
+                            [...preVal, <img key={i} src={`${el.gallery_folder}/${i}.webp`} />]
                         )
                     })
                     

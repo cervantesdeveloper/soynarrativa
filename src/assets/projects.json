@@ -11,50 +11,119 @@
 
     {   "id": "02",
         "title": "Raices de México",
-        "image": "/raices_de_mexico/1.png",
+        "image": "/projects/raices_de_mexico/1.webp",
         "service": "Identidad de marca",
         "description": "Es una colección que nace del alma profunda de nuestra tierra: un homenaje a la identidad, la historia y el orgullo de ser mexicanos. Cada pieza celebra nuestras tradiciones, colores y símbolos ancestrales, transformando la riqueza cultural en joyas que cuentan quiénes fuimos, quiénes somos y la grandeza de lo que representamos.",
-        "gallery_folder": "/raices_de_mexico",
+        "gallery_folder": "/projects/raices_de_mexico",
         "total_images": 15
     },
 
     {   "id": "03",
-        "title": "Proyecto 3",
-        "image": "https://picsum.photos/id/240/960/592",
-        "service": "website",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_3",
-        "total_images": 15
+        "title": "Reina Cobá",
+        "image": "/projects/reina_coba/1.webp",
+        "service": "Identidad de marca",
+        "description": "El diseño del logotipo y concepto gráfico toma forma a partir de las estelas y piedras talladas de las pirámides, evocando un estilo antiguo, erosionado por el tiempo, pero lleno de fuerza y significado. Con una estética que honra lo sagrado, lo femenino y lo eterno, Reyna Cobá se alza como un símbolo de poder ancestral reimaginado para la mujer de hoy.",
+        "gallery_folder": "/projects/reina_coba",
+        "total_images": 18
 
     },
 
     {   "id": "04",
-        "title": "Proyecto 4",
-        "image": "https://picsum.photos/id/241/960/592",
+        "title": "Resurrection",
+        "image": "/projects/resurrection/1.webp",
         "service": "branding",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_4",
-        "total_images": 15
-
+        "description": "Resurrection es una marca que representa el poder del renacer a través de una identidad visual sofisticada y atemporal. Inspirada en la dualidad entre oscuridad y luz, fusiona elegancia, lujo y transformación eterna. Creada para Christian Nodal, la marca refleja su esencia artística y se consolida como un emblema de resiliencia, exclusividad y belleza que trasciende.",
+        "gallery_folder": "/projects/resurrection",
+        "total_images": 12
     },
 
-    {   "id": "05",
-        "title": "Proyecto 5",
-        "image": "https://picsum.photos/id/242/960/592",
-        "service": "redes",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_5",
-        "total_images": 15
-
+    {   
+        "id": "05",
+        "title": "Bodylogic",
+        "image": "/projects/bodylogic/1.webp",
+        "service": "branding",
+        "description": "Durante mi tiempo en Bodylogic, parte de Grupo PiSA, consolidé mi experiencia como diseñadora gráfica al liderar procesos creativos estratégicos enfocados en el fortalecimiento de marca. Coordiné el Departamento de Servicios Creativos, donde desarrollé, diseñé y supervisé campañas visuales para redes sociales y demás canales, alineadas con los objetivos comerciales. Mi rol implicó desde la conceptualización hasta la ejecución de piezas clave, colaborando con agencias externas, proveedores y distintos equipos internos. Este periodo fue clave para perfeccionar mi capacidad de gestionar proyectos integrales, manteniendo siempre una visión estética sólida y orientada a resultados.",
+        "gallery_folder": "/projects/bodylogic",
+        "total_images": 7
     },
 
-    {   "id": "06",
-        "title": "Proyecto 5",
-        "image": "https://picsum.photos/id/242/960/592",
-        "service": "redes",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_5",
-        "total_images": 15
+    {   
+        "id": "06",
+        "title": "Holy Water",
+        "image": "/projects/holy_water/1.webp",
+        "service": "branding",
+        "description": "EL PODER DE LA FE, LA AMBICIÓN DE LA CALLE Holy Water fusiona lo sagrado con lo urbano, donde la fe impulsa y la ambición conquista. Su paleta azul celestial y la iluminación etérea evocan lo divino, mientras que la tipografía diseñada especialmente para esta colección, combina lo clásico con el estilo crudo de las calles, reflejando la dualidad entre lo eterno y lo terrenal. El logotipo fue conceptualizado como un sello espiritual contemporáneo: fuerte, elegante y desafiante, como quienes lo portan. No es solo joyería, es un manifiesto. Holy Water: La redención no se espera, se toma.",
+        "gallery_folder": "/projects/holy_water",
+        "total_images": 6
+    },
 
+    {   
+        "id": "07",
+        "title": "Piemonte",
+        "image": "/projects/piemonte/1.webp",
+        "service": "branding",
+        "description": "Inspirado en el lugar donde nace la montaña y donde históricamente el ser humano ha encontrado un entorno ideal para asentarse, PIEMONTE simboliza vida, origen y resguardo. Este nombre evoca la conexión entre el ser humano y la naturaleza, un punto de encuentro entre lo salvaje y lo habitable, entre el monte y la llanura.",
+        "gallery_folder": "/projects/piemonte",
+        "total_images": 6
+    },
+
+    {   
+        "id": "08",
+        "title": "Sadness",
+        "image": "/projects/sadness/1.webp",
+        "service": "branding",
+        "description": "La imagen gráfica de Sadness Collection refleja visualmente la esencia de la melancolía y la pasión contenida en la narrativa de la colección. Cada elemento, desde la tipografía hasta la paleta de colores, transmite la dualidad entre la belleza y el dolor, creando un universo estético que evoca nostalgia y profundidad emocional. El uso de tonos oscuros y acentos escarlata simboliza la intensidad de un amor que deja cicatrices, mientras que las texturas desgastadas y detalles sutiles representan las grietas de un corazón roto. La composición, con líneas elegantes pero fragmentadas, refuerza el concepto de una belleza imperfecta, donde cada pieza gráfica funciona como una extensión de la historia detrás de la colección. Sadness Collection no solo comunica una identidad visual coherente con Junior H y su estilo Sadboy , sino que también convierte la tristeza en un lenguaje visual que resuena con aquellos que encuentran arte en la melancolía.",
+        "gallery_folder": "/projects/sadness",
+        "total_images": 11
+    },
+
+    {   
+        "id": "09",
+        "title": "B-Tea",
+        "image": "/projects/btea/1.webp",
+        "service": "branding",
+        "description": "Esta campaña de lanzamiento tenía como objetivo posicionar el producto como una alternativa poderosa pero orgánica, que conecta con quienes buscan bienestar sin sacrificar lo esencial: lo puro, lo auténtico, lo natural.El enfoque creativo transmite fuerza, equilibrio y vitalidad, proyectando una imagen limpia, saludable y visualmente atractiva, en línea con el estilo de vida consciente y en armonía con el cuerpo. B Tea no solo es una bebida, es un ritual que acompaña con energía y naturalidad el camino hacia una mejor versión de ti.",
+        "gallery_folder": "/projects/btea",
+        "total_images": 5
+    },
+
+    {   
+        "id": "10",
+        "title": "Forlighting",
+        "image": "/projects/forlighting/1.webp",
+        "service": "branding",
+        "description": "El diseño editorial del Catálogo 2025 de Forlighting refleja una estética minimalista y funcional , donde la luz es la protagonista. Con una maquetación limpia, una tipografía elegante y un equilibrio visual preciso, cada página guía al lector a través de una experiencia envolvente. La disposición estructurada de imágenes y descripciones resalta la calidad y el diseño innovador de cada pieza, asegurando una navegación fluida e intuitiva.",
+        "gallery_folder": "/projects/forlighting",
+        "total_images": 5
+    },
+
+    {   
+        "id": "11",
+        "title": "Un amor exclusivo",
+        "image": "/projects/un_amor_exclusivo/1.webp",
+        "service": "branding",
+        "description": "'No todo amor trasciende. No todo amor merece ser recordado'. El verdadero amor es más que una emoción; es una decisión que solo unos pocos tienen el privilegio de tomar. Es la certeza de haber encontrado lo irremplazable en un mundo donde todo parece pasajero. No se trata de lo común, de lo efímero, ni de lo que cualquiera puede tener. Se trata de lo extraordinario, lo que solo los valientes eligen sostener, lo que desafía al tiempo y resiste incluso el olvido. Esta campaña fue concebida para el 14 de febrero, como una oda al amor que trasciende, al que no necesita explicaciones, solo presencia. Un homenaje al vínculo único, exclusivo e inolvidable.",
+        "gallery_folder": "/projects/un_amor_exclusivo",
+        "total_images": 4
+    },
+
+    {   
+        "id": "12",
+        "title": "Bagel & Go",
+        "image": "/projects/bagel_and_go/1.webp",
+        "service": "branding",
+        "description": "El bocado rápido, el sabor real Nueva York no solo es la ciudad que nunca duerme, sino también la capital indiscutible del bagel. En el corazón de su ritmo imparable nació la inspiración para Bagel y Go, un concepto donde la velocidad y la calidad van de la mano. En un mundo donde el tiempo es el recurso más valioso, “Bagel y Go” adopta la esencia del concepto estadounidense “Grab & Go”, que significa literalmente “tómalo y vete”. Aquí, no hay filas interminables, ni esperas innecesarias: solo llegas, eliges tu bagel, pagas y sigues con tu día.",
+        "gallery_folder": "/projects/bagel_and_go",
+        "total_images": 5
+    },
+
+    {   
+        "id": "13",
+        "title": "4 Freedom",   
+        "image": "/projects/freedom/1.webp",
+        "service": "branding",
+        "description": "4 Freedom es la expresión de Gera MX y su vínculo con el número cuatro, fusionando significado personal con un mensaje de libertad y autenticidad. Esta colección simboliza la autoexpresión y la rebeldía, inspirando a romper barreras y ser fiel a uno mismo. Slogan: Break the Silence es un llamado a alzar la voz, desafiar la indiferencia y enfrentar la realidad con valentía.",
+        "gallery_folder": "/projects/freedom",
+        "total_images": 5
     }
-]
+]   

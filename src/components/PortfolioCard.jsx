@@ -6,7 +6,7 @@ const PortfolioCard = ({title, img, link}) => {
         <figure className='card-portfolio'>
         <img src={img} alt={title} />
         <div className="card-portfolio__title">
-            <h4>{title}</h4>
+            <h4>{title.toUpperCase()}</h4>
         </div>
         </figure>
     </Link> 
