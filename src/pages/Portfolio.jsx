@@ -2,7 +2,7 @@ import data from "../assets/projects.json";
 import PortfolioCard from "../components/PortfolioCard";
 
 const Portfolio = () => {
-  const images = data.map(img => img);
+  const images = data.filter(el => el.id !== "01");
 
 
   return (

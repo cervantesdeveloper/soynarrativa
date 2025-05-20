@@ -46,5 +46,15 @@
         "gallery_folder": "/proyecto_5",
         "total_images": 15
 
+    },
+
+    {   "id": "06",
+        "title": "Proyecto 5",
+        "image": "https://picsum.photos/id/242/960/592",
+        "service": "redes",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
+        "gallery_folder": "/proyecto_5",
+        "total_images": 15
+
     }
 ]
