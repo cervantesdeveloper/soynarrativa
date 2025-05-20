@@ -1,46 +1,50 @@
 [
-    {   "id": "1",
-        "title": "Proyecto 1",
-        "image": "https://picsum.photos/id/237/960/592",
+    {   "id": "01",
+        "title": "Hero",
+        "image": "/hero.webp",
         "service": "branding",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_1"
+        "description": "Colectivo creativo",
+        "gallery_folder": "/",
+        "total_images": 1
 
     },
 
-    {   "id": "2",
-        "title": "Proyecto 2",
-        "image": "https://picsum.photos/id/239/960/592",
-        "service": "redes",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_2"
-
+    {   "id": "02",
+        "title": "Raices de México",
+        "image": "/raices_de_mexico/1.png",
+        "service": "Identidad de marca",
+        "description": "Es una colección que nace del alma profunda de nuestra tierra: un homenaje a la identidad, la historia y el orgullo de ser mexicanos. Cada pieza celebra nuestras tradiciones, colores y símbolos ancestrales, transformando la riqueza cultural en joyas que cuentan quiénes fuimos, quiénes somos y la grandeza de lo que representamos.",
+        "gallery_folder": "/raices_de_mexico",
+        "total_images": 15
     },
 
-    {   "id": "3",
+    {   "id": "03",
         "title": "Proyecto 3",
         "image": "https://picsum.photos/id/240/960/592",
         "service": "website",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_3"
+        "gallery_folder": "/proyecto_3",
+        "total_images": 15
 
     },
 
-    {   "id": "4",
+    {   "id": "04",
         "title": "Proyecto 4",
         "image": "https://picsum.photos/id/241/960/592",
         "service": "branding",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_4"
+        "gallery_folder": "/proyecto_4",
+        "total_images": 15
 
     },
 
-    {   "id": "5",
+    {   "id": "05",
         "title": "Proyecto 5",
         "image": "https://picsum.photos/id/242/960/592",
         "service": "redes",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed sed dolor ac turpis laoreet aliquet. Nam eget enim nec leo pulvinar congue. Praesent mollis enim non leo accumsan, id eleifend magna blandit. Fusce vel vehicula eros, et malesuada ex. Ut felis magna, malesuada quis nibh mollis, commodo tempor quam. Sed dignissim ex ut nibh dapibus aliquam. Sed vestibulum maximus vestibulum. Nam pretium massa at nulla facilisis gravida ac eu diam. Etiam dolor nibh, facilisis vitae lacus et, dignissim feugiat augue. Nulla sagittis felis ante, pretium blandit nisi pharetra ut. Maecenas massa justo, ultrices sollicitudin hendrerit semper, pulvinar eu tellus.",
-        "gallery_folder": "/proyecto_5"
+        "gallery_folder": "/proyecto_5",
+        "total_images": 15
 
     }
 ]

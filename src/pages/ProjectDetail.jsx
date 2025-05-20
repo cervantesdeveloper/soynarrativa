@@ -7,6 +7,7 @@ import data from "../assets/projects.json";
 const ProjectDetail = () => {
     const params = useParams();
     const [project, setProject] = useState(null);
+    const [images, setImages] = useState([]);
 
     useEffect(()=>{
         data.map(el=>{
@@ -17,14 +18,28 @@ const ProjectDetail = () => {
                     img: el.image,
                     service: el.service,
                     description: el.description,
-                    folder: el.gallery_folder
-                })
+                    folder: el.gallery_folder,
+                    total_images: el.total_images
+                });
+
+                for(let i = 2; i <= el.total_images; i++){
+                    setImages(preVal=>{
+                        return (
+                            [...preVal, <img key={i} src={`${el.gallery_folder}/${i}.png`} />]
+                        )
+                    })
+                    
+                }
+                
             }
         })
-    },[params.id]);
 
-    const Detail = ()=>{
-        return(
+    },[params.id]);
+    
+    return (
+        !project
+        ? <h1>Loading...</h1>
+        : (
             <main className="project-detail">
                 <img src={project.img} alt={project.title} />
                 <div className="project-detail__heading">
@@ -38,22 +53,10 @@ const ProjectDetail = () => {
                     </p>
                 </div>
                 <div className="project-detail__gallery">
-                    <img src={`${project.gallery_folder}/01.webp`} alt={`${project.title} image 01`} />
-                    <img src={`${project.gallery_folder}/02.webp`} alt={`${project.title} image 02`} />
-                    <img src={`${project.gallery_folder}/03.webp`} alt={`${project.title} image 03`} />
-                    <img src={`${project.gallery_folder}/04.webp`} alt={`${project.title} image 04`} />
-                    <img src={`${project.gallery_folder}/05.webp`} alt={`${project.title} image 05`} />
+                    {images}
                 </div>
-            </main>
-            
+            </main> 
         )
-    }
-
-    return (
-        
-        !project
-        ? <h1>Loading...</h1>
-        : <Detail />
         
     )
 }

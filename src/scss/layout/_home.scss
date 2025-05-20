@@ -110,7 +110,7 @@
 
     & > img:first-child{
         height: 2.375rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1.5rem;
         display: none;
 
         @media (min-width: 1440px) {
@@ -120,7 +120,7 @@
 
     img{
         max-width: min(90%, 12rem);
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
     }
 
     @media (orientation: landscape) {
@@ -139,7 +139,7 @@
         margin-top: 3rem;
 
         @media (min-width: 1440px) {
-            margin-top: 6rem;
+            margin-top: 3rem;
         }
     }
 
@@ -162,7 +162,7 @@
     }
 
     @media (min-width: "1440px") {
-            margin-bottom: 6rem;
+            margin-bottom: 3rem;
         }
 }
 
