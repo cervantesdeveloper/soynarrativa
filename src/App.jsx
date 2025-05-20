@@ -5,9 +5,11 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import ProjectDetail from './pages/ProjectDetail';
 
 import './scss/app.scss';
 import Layout from './Layouts/Layout';
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
                 <Route element={<Layout/>}>
                     <Route path='/about' element={<About />}/>
                     <Route path='/portfolio' element={<Portfolio />}/>
+                    <Route path='/portfolio/:id' element={<ProjectDetail />}/>
                     <Route path='/services' element={<Services />}/>
                     <Route path='/contact' element={<Contact />}/>
                 </Route>

@@ -9,7 +9,6 @@ const Portfolio = () => {
     <main className='portfolio'>
       {
         images.map(el =>{
-          console.log(el)
           return(
             <PortfolioCard 
               key={el.id}
