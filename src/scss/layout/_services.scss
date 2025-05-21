@@ -1,0 +1,56 @@
+@use "../base/variables" as v;
+
+.services__hero{
+    margin-top: v.$headerHeight;
+    background-color: v.$green-00;
+    padding: 2rem;
+
+    .contained{
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (min-width: 767px) {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+            > *{
+                flex-basis: 50%;
+            }
+        }
+    }
+}
+
+.services__heading{
+    h1{
+        margin: calc(3.75rem - 1.5rem) 0 3.75rem;
+        font-size: 3.75rem;
+        color: v.$green-100;
+
+        @media (min-width: 1440px) {
+            font-size: 4.5rem;
+        }
+    }
+}
+
+.services__description{
+    h3, p{
+        color: v.$green-100;
+    }
+
+    h3{
+        font-size: 1.125rem;
+        margin: 0 0 1.6875rem;
+    }
+
+    p{
+        font-size: .875rem;
+        line-height: 1.5;
+
+        &:not(:last-child){
+            margin-bottom: 1.1875rem;
+        }
+        
+    }
+}

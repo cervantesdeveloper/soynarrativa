@@ -5,6 +5,7 @@ import NavDesktop from './NavDesktop';
 import Btn from './Btn';
 
 import DeviceContext from '../contexts/DeviceContext';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -17,7 +18,7 @@ const Header = () => {
         ? <NavMobile/>
         : <NavDesktop/>
       }
-      {!isMobile && <Btn text="CONTACTO" />}
+      {!isMobile && <Link to="contact"><Btn text="CONTACTO" /></Link>}
     </header>
   )
 }
