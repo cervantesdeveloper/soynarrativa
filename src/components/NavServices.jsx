@@ -58,10 +58,22 @@ const NavServices = () => {
         )
     }
 
+
     const DesktopServices = ()=>{
         return (
             <nav className='services-menu__desktop'>
+                
+                <NavLink to={"branding"}>Branding</NavLink>
+            
+                <NavLink to={"media"}>Social Media</NavLink>
 
+                <NavLink to={"packaging"}>Packaging</NavLink>
+
+                <NavLink to={"stationery"}>Papelería</NavLink>
+            
+                <NavLink to={"photo"}>Fotografía de Producto</NavLink>
+            
+                <NavLink to={"naming"}>Naming</NavLink>
             </nav>
         )
     }

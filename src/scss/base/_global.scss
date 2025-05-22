@@ -104,7 +104,7 @@ h2{
 
 .iconPlus{
     position: relative;
-    border: 1px solid v.$purple-50;
+    border: 2px solid v.$purple-50;
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
@@ -115,22 +115,21 @@ h2{
     position: absolute;
     display: block;
     top: 1.125rem;
-    left: .4375rem;
+    left: .375rem;
     background-color: v.$purple-50;
     height: .125rem;
     width: 1.5rem;
-    transform-origin: center;
-    transition: .3s ease-in-out;
+    transition: transform .3s ease-in-out;
 }
 
 .iconPlus span:first-child{
-    transform: rotate(90deg);
+    transform: rotate(90deg);   
 }
 
 .iconPlus.iconOpen span:first-child{
+    
     transform: rotate(0deg);   
 }
-
 
 main.container{
     margin-top: v.$headerHeight;

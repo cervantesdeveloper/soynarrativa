@@ -6,58 +6,30 @@ const ServicePackaging = () => {
             <div className="service__heading">
                 <h2>Packaging</h2>
                 <p>
-                    Creamos universos visuales con propósito.
+                    Diseño que se siente y se recuerda
                 </p>
 
                 <p>
-                    Cada marca tiene una esencia única: personalidad, atributos, valores y una historia que merece contarse con intención. En Narrativa® construimos identidades visuales coherentes, con dirección estética, conceptual y emocional para generar conexión real con tu audiencia.
+                    El empaque es la primera experiencia tangible con tu marca. En Narrativa® combinamos estética y funcionalidad para diseñar packaging que enamore y comunique tu identidad con intención.
                 </p>
 
-                <p>
-                    Elige el paquete que mejor se alinee con el momento de tu marca:
-                </p>
+                
             </div>
 
             <div className="service__description">
                 <div className="service__list">
-                    <h3>Branding esencial</h3>
-                    <p>
-                        Para marcas que inician o tienen un presupuesto ajustado.
-                    </p>
+                    <h3>Packaging</h3>
+                    
                     <ul>
-                        <li>Análisis de marca e investigación</li>
-                        <li>Concepto creativo y personalidad verbal / visual</li>
-                        <li>Moodboard (Dirección de arte)</li>
-                        <li>Logotipo principal</li>
-                        <li>Sublogo o versión secundaria</li>
-                        <li>Paleta cromática</li>
-                        <li>Sistema tipográfico</li>
-                        <li>Brandboard final (resumen visual de marca)</li>
+                        <li>Selecciona los elementos que necesites:</li>
+                        <li>Diseño de cajas para producto o envío</li>
+                        <li>Diseño de bolsas</li>
+                        <li>Etiquetas personalizadas</li>
+                        <li>Tarjetas de agradecimiento</li>
+                        <li>Stickers o papel seda</li>
+                        <li>Cinta de empaque personalizada</li>
                     </ul>
-                    <p>Ideal para lanzar con identidad clara y profesional.</p>
-                </div>
-
-                <div className="service__list">
-                    <h3>Branding completo</h3>
-                    <p>
-                        Para marcas que buscan un universo visual integral y sólido.
-                    </p>
-                    <ul>
-                        <li>Análisis profundo e investigación estratégica</li>
-                        <li>
-                            Concepto creativo de marca (storytelling + atributos)
-                        </li>
-                        <li>Moodboard con dirección visual y tono emocional</li>
-                        <li>Logotipo principal</li>
-                        <li>Variaciones del logotipo</li>
-                        <li>Paleta de color primaria y secundaria</li>
-                        <li>Sistema tipográfico</li>
-                        <li>Ilustración o trama personalizada</li>
-                        <li>
-                            Manual de identidad visual (uso, aplicaciones y reglas)
-                        </li>
-                    </ul>
-                    <p>Pensado para construir marcas memorables desde la raíz.</p>
+                    <p>Creamos unboxing que se vuelven parte de la historia.</p>
                 </div>
                 
             </div>
