@@ -18,6 +18,7 @@ const Layout = () => {
             </DeviceProvider>
             
             <Outlet />
+            
             <DeviceProvider>
                 <Footer />
             </DeviceProvider>

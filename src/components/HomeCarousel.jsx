@@ -3,7 +3,6 @@ import data from "../assets/projects.json";
 const HomeCarousel = () => {
     const images = data.map(img => img);
 
-    console.log(images)
     return (
         <section className='home-hero__gallery'>
             <div className="home-hero__carousel">

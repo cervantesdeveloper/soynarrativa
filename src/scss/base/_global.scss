@@ -102,6 +102,36 @@ h2{
     margin-bottom: 1.5rem;
 }
 
+.iconPlus{
+    position: relative;
+    border: 1px solid v.$purple-50;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2rem auto;
+}
+
+.iconPlus span{
+    position: absolute;
+    display: block;
+    top: 1.125rem;
+    left: .4375rem;
+    background-color: v.$purple-50;
+    height: .125rem;
+    width: 1.5rem;
+    transform-origin: center;
+    transition: .3s ease-in-out;
+}
+
+.iconPlus span:first-child{
+    transform: rotate(90deg);
+}
+
+.iconPlus.iconOpen span:first-child{
+    transform: rotate(0deg);   
+}
+
+
 main.container{
     margin-top: v.$headerHeight;
 }
