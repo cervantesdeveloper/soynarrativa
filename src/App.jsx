@@ -30,38 +30,38 @@ function App() {
                 <Route path='/' element={<Home />} />
                 
                 <Route element={<Layout/>}>
-                    <Route path='/about' element={<About />}/>
-                    <Route path='/portfolio' element={<Portfolio />}/>
-                    <Route path='/portfolio/:id' element={<ProjectDetail />}/>
+                    <Route path='about' element={<About />}/>
+                    <Route path='portfolio' element={<Portfolio />}/>
+                    <Route path='portfolio/:id' element={<ProjectDetail />}/>
 
-                    <Route path='/services' element={<LayoutServices />}>
+                    <Route path='services' element={<LayoutServices />}>
                         <Route 
-                            path='/services/branding' 
+                            path='branding' 
                             element={<ServiceBranding/>} 
                         />
 
                         <Route 
-                            path='/services/media' 
+                            path='media' 
                             element={<ServiceMedia/>} 
                         />
 
                         <Route 
-                            path='/services/packaging' 
+                            path='packaging' 
                             element={<ServicePackaging/>} 
                         />
 
                         <Route 
-                            path='/services/stationery' 
+                            path='stationery' 
                             element={<ServiceStationery/>} 
                         />
 
                         <Route 
-                            path='/services/photo' 
+                            path='photo' 
                             element={<ServicePhoto/>} 
                         />
 
                         <Route 
-                            path='/services/naming' 
+                            path='naming' 
                             element={<ServiceNaming/>} 
                         />
                     </Route>

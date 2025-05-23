@@ -103,13 +103,17 @@ h2{
 }
 
 .iconPlus{
-    position: relative;
-    border: 2px solid v.$purple-50;
-    border-radius: 50%;
+    display: block;
     width: 2.5rem;
     height: 2.5rem;
-    margin: 2rem auto;
+    border-radius: 50%;
+    border: 2px solid v.$purple-50;
+    margin: 1rem auto 0;
+    position: relative;
 }
+
+
+
 
 .iconPlus span{
     position: absolute;
@@ -126,9 +130,8 @@ h2{
     transform: rotate(90deg);   
 }
 
-.iconPlus.iconOpen span:first-child{
-    
-    transform: rotate(0deg);   
+.iconPlus.plus-open span:first-child{
+    transform: rotate(0deg);
 }
 
 main.container{

@@ -1,56 +1,60 @@
-import {useContext, useState} from 'react';
+import {useContext, useRef} from 'react';
 
 import DeviceContext from '../contexts/DeviceContext';
 import { NavLink } from 'react-router-dom';
 
 const NavServices = () => {
+    const navRef = useRef(null);
+    const plusRef = useRef(null)
     const {isMobile} = useContext(DeviceContext);
-    const [isOpen, setIsOpen] = useState(false);
+
 
     const handleClick = ()=>{
-        setIsOpen(!isOpen)
+        navRef.current.classList.toggle("nav-open");
+        plusRef.current.classList.toggle("plus-open");
     }
 
     const MobileServices = ()=>{
         return (
             <>
                 <div 
-                    className={`iconPlus ${isOpen ? "iconOpen" : "iconClosed"}`}
+                    className='iconPlus' 
                     onClick={handleClick}
+                    ref={plusRef}
                 >
                     <span></span>
                     <span></span>
                 </div>
 
-                <nav className={`services-menu__mobile ${isOpen ? "nav-open" : "nav-closed"}`}>
+                <nav className={`services-menu__mobile`} ref={navRef}>
                 
-                <ul>
-                    <li onClick={handleClick}>
-                        <NavLink to={"branding"}>Branding</NavLink>
-                    </li>
-                    
-                    <li onClick={handleClick}>
-                        <NavLink to={"media"}>Social Media</NavLink>
-                    </li>
+                    <ul>
+                        <li onClick={handleClick}>
+                            <NavLink to={"branding"}>Branding</NavLink>
+                        </li>
+                        
+                        <li onClick={handleClick}>
+                            <NavLink to={"media"}>Social Media</NavLink>
+                        </li>
 
-                    <li onClick={handleClick}>
-                        <NavLink to={"packaging"}>Packaging</NavLink>
-                    </li>
+                        <li onClick={handleClick}>
+                            <NavLink to={"packaging"}>Packaging</NavLink>
+                        </li>
 
-                    <li onClick={handleClick}>
-                        <NavLink to={"stationery"}>Papelería</NavLink>
-                    </li>
+                        <li onClick={handleClick}>
+                            <NavLink to={"stationery"}>Papelería</NavLink>
+                        </li>
 
-                    <li onClick={handleClick}>
-                        <NavLink to={"photo"}>Fotografía de Producto</NavLink>
-                    </li>
+                        <li onClick={handleClick}>
+                            <NavLink to={"photo"}>Fotografía de Producto</NavLink>
+                        </li>
 
-                    <li onClick={handleClick}>
-                        <NavLink to={"naming"}>Naming</NavLink>
-                    </li>
-                </ul>
+                        <li onClick={handleClick}>
+                            <NavLink to={"naming"}>Naming</NavLink>
+                        </li>
+                    </ul>
                 
-            </nav>
+                </nav>
             </>
             
             
