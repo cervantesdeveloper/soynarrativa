@@ -1,0 +1,89 @@
+@use "../base/variables" as v;
+
+.contact__main{
+    @media (min-width: 768px) {
+        display: flex;
+        gap: 3rem;
+
+        > *{
+            flex-basis: 50%;
+        }
+    }
+
+    @media (min-width: 1440px){
+        gap: 7rem;
+    }
+}
+
+
+.contact__hero{
+
+    color: v.$grey-75;
+    margin-bottom: v.$headerHeight;
+    h2{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        font-size: .875rem;
+        line-height: 1.5;
+
+        &:not(:last-child){
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.contact__form{
+
+    label{
+        color: v.$grey-75;
+        font-size: .875rem;
+        line-height: 1.5;
+        display: block;
+    }
+
+    input, textarea{
+        color: v.$grey-100;
+        padding: 1rem;
+        font-size: .875rem;
+        height: 3rem;
+        border: 1px solid v.$grey-50;
+        margin-bottom: 2rem;
+        width: 100%;
+        resize: vertical;
+    }
+
+    p.empty,
+    p.error{
+        display: block;
+    }
+
+    input:focus-visible, textarea:focus-visible{
+        outline: 2px solid v.$grey-75;
+    }
+
+    textarea{
+        min-height: 13.375rem;
+
+        @media (min-width: 1024px){
+        min-height: 8rem;
+    }
+    }
+
+    p{
+        margin-top: -1rem;
+        border: 1px solid v.$orange-100;
+        padding: 1rem;
+        color: v.$orange-100;
+        font-size: .75rem;
+        line-height: 1.5;
+        display: none;
+        margin-bottom: 2rem;
+    }
+
+    button{
+        background-color: unset;
+    }
+}
