@@ -65,7 +65,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__form">
-                    <form action={submitHandler}>
+                    <form action="https://usebasin.com/f/a2025de19ff8" method="POST">
                         <label htmlFor="name">Nombre(s)*</label>
                         <input 
                             tabIndex="1"

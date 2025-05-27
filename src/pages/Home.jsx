@@ -33,8 +33,8 @@ const Home = () => {
               <p>A través de diseño estratégico, narrativa visual y un enfoque consciente, creamos marcas con alma, pensadas para generar impacto real.</p>
                 
             </div>
-            <Link to={"portfolio"}>
-              <Btn text="NUESTRO TRABAJO"/>
+            <Link to={"contact"}>
+              <Btn text="CONTACTO"/>
             </Link>
             <MediaMenu />
           </div>

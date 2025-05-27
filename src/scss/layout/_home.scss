@@ -94,6 +94,16 @@
    @media (min-width: 768px) {
         aspect-ratio: 1.62 / 1;
    }
+
+   &:first-child{
+    position: relative;
+   }
+
+   h3{
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+   }
 }
 
 .home-hero__image img{
