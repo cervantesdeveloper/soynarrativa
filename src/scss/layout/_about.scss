@@ -20,13 +20,105 @@
     @media (min-width: 768px) {
         display: flex;
         gap: 7rem;
+        align-items: center;
 
-        > div{
+        & > div:first-child{
+            margin-bottom: 0;
+        }
+
+        .about__about{
             flex-basis: 50%;
         }
 
-        & > div:first-child{
-        margin-bottom: 0;
+        .about__adn{
+            width: 50%;
+        }
     }
+
+    @media (min-width: 1024px) {
+        
+        .about__about{
+            flex-basis: 66%;
+        }
+
+        .about__adn{
+            width: 34%;
+        }
+    }
+}
+
+.about__adn{
+    width: 100%;
+}
+
+.about__adn img{
+    width: 100%;
+    height: auto;
+}
+
+.process h2{
+    margin: v.$headerHeight 0 ;
+    width: 100%;
+    text-align: center;
+    color: v.$green-100;
+}
+
+.process_steps{
+    background-color: v.$green-00;
+    color: v.$grey-75;
+    padding: v.$headerHeight 1.5rem;
+
+    @media (min-width: 768px) {
+        display: flex;
+        gap: 3rem;
+        flex-wrap: nowrap;
+    }
+
+    @media (min-width: 1440px) {
+        padding: v.$headerHeight calc((100% - 90rem) / 2 );
+    }
+
+
+    .process_step{
+
+        &:not(:last-child){
+            margin-bottom: 3rem;
+
+            @media (min-width: 768px) {
+                margin-bottom: 0;
+            }
+        }
+
+        
+    }
+
+
+    .process_step h3{
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: v.$grey-75;
+    }
+
+    .process_step p{
+        font-size: .875rem;
+
+        
+    }
+}
+
+.call-to-action{
+    padding: v.$headerHeight 1.5rem;
+    text-align: center;
+    h2{
+        color: v.$purple-50;
+        margin-bottom: 3.75rem;
+    }
+
+    .btn{
+        max-width: min-content;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

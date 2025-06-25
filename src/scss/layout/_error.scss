@@ -1,0 +1,47 @@
+@use "../base/variables" as v;
+
+.error{
+    width: 100%;
+    min-height: calc(100vh - v.$headerHeight );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: v.$headerHeight 1.5rem;
+
+    h1{
+        color: v.$grey-25;
+        font-size: 34vw;
+        line-height: 1;
+        margin: 0 0 7rem;
+        font-family: v.$header;
+
+        @media (orientation: landscape) {
+            font-size: 17vw;
+        }
+    }
+    
+    h2{
+        color: v.$grey-75;
+        margin: 0 auto 7rem;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 400;
+        max-width: 39rem;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 3rem;
+    }
+    
+    a{
+        width: max-content;
+    }
+
+}
+
+.error + footer nav{
+    justify-content: center;
+
+}

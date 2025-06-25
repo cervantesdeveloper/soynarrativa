@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,6 +11,7 @@ import ServiceNaming from './pages/ServiceNaming';
 import ServicePackaging from './pages/ServicePackaging';
 import ServicePhoto from './pages/ServicePhoto';
 import ServiceStationery from './pages/ServiceStationery';
+import Error from './pages/Error';
 
 import './scss/app.scss';
 import Layout from './Layouts/Layout';
@@ -25,7 +26,7 @@ function App() {
 
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
                 
@@ -67,9 +68,10 @@ function App() {
                     </Route>
 
                     <Route path='/contact' element={<Contact />}/>
+                    <Route path='*' element={<Error />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
   }
 
