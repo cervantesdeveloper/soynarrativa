@@ -61,7 +61,7 @@ const About = () => {
 
       <section className="call-to-action">
         <h2>¿Estás listo para trabajar con Narrativa?</h2>
-        <Link to="contact">
+        <Link to="../contact">
           <Btn text="CONTACTÁNOS"/>
         </Link>
       </section>

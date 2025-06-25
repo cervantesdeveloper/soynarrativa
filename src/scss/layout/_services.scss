@@ -30,13 +30,9 @@
 .services-heading{
     h1{
         margin: 0 0 3.75rem;
-        font-size: 3.75rem;
         color: v.$green-100;
 
-        @media (min-width: 1440px) {
-            font-size: 4.5rem;
-        }
-
+        
         @media (min-width: 768px) {
             margin: 0;
         }
@@ -167,7 +163,6 @@
     margin-bottom: 3rem;
     h2{
         color: v.$green-75;
-        font-size: 3rem;
         margin-bottom: 3rem;
     }
 
